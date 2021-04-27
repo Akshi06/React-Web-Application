@@ -1,0 +1,31 @@
+.slideshow{
+    width: 650px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.slideshowsliders{
+    height: 300px;
+    width: 650px;
+}
+
+.slide{
+    height: 300px;
+    width: 650px;
+}
+
+.slide h1{
+    font-weight: 300;
+    font-size: 44px;
+}
+
+select{
+    margin: 5%;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(2, 40, 66);
+}

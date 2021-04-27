@@ -1,0 +1,62 @@
+#topic{
+    font-size: 50px;
+    transform: translateY(50);
+    color: aliceblue;
+}
+
+.slideshow{
+    margin-top: 25px;
+    margin-left: 10%;
+    overflow: hidden;
+    width: 950px;
+    /* transform: translateX(-350px); */
+}
+
+.slideshowsliders{
+    white-space: nowrap;
+    transition: ease .5s;
+}
+
+.slide{
+    display: inline-block;
+    color: aliceblue;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.slide h1{
+    font-size: 40px;
+}
+
+.slide p{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.slideshowdots{
+    padding-top: 20px;
+    margin-top: 9%;
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+}
+
+
+
+.slideshowdot{
+    display: inline-block;
+    height: 10px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 8px 0;
+    background-color: rgb(251, 253, 253);
+}
+
+.slideshowdot:active{
+    background: rgb(15, 250, 238);
+}
